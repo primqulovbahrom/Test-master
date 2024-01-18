@@ -13,7 +13,22 @@
         android:theme="@style/Theme.TestMaster"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".mvp.screens.pre_intermediate.PreIntermediateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.screens.elementary.ElementaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.screens.intermediate.IntermediateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.screens.upper_intermediate.UpperIntermediateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.screens.category.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mvp.screens.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
